@@ -3,7 +3,7 @@ particlesJS("particles-js", {
         number: { value: 160, density: { enable: true, value_area: 800 } },
         color: { value: "#ffff00" }, // color changes here
         shape: {
-        type: "circle", // type here
+        type: "triangle", // type here
         stroke: { width: 0, color: "#000420" },
         polygon: { nb_sides: 5 },
         image: { src: "images/logo.svg", width: 100, height: 100 }
