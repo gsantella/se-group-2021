@@ -137,6 +137,7 @@ Javascript Files:
  - Swiper (https://swiperjs.com/)
  - MoveTo.js (https://github.com/hsnaydd/moveTo)
  - Prism.js (https://prismjs.com/)
+ - Particles.Js (github.com/VincentGarreau/particles.js)
 
 -------------------------------------------------------------------------------------------------------
 
