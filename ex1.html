@@ -1,0 +1,22 @@
+<h1>The Min of [ 1, 5, -3, 99, 24, 640, 12 ] = <span id="nathan">?</span></h1>
+<h1>The Max of [ 1, 5, -3, 99, 24, 640, 12 ] = <span id="austin">?</span></h1>
+<h1>The Avg of [ 1, 5, -3, 99, 24, 640, 12 ] = <span id="connor">?</span></h1>
+
+<script src="js/nathan.js"></script>
+<script src="js/austin.js"></script>
+<script src="js/connor.js"></script>
+<script>
+
+    /* Student Assignments Linkage
+    * -------------------------------------------------- */
+    const nathan = document.querySelector('#nathan');
+    const austin = document.querySelector('#austin');
+    const connor = document.querySelector('#connor');
+
+    const array = [ 1, 5, -3, 99, 24, 640, 12 ];
+
+    nathan.innerHTML = min(array);
+    austin.innerHTML = max(array);
+    connor.innerHTML = avg(array);
+
+</script>
