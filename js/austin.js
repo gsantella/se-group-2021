@@ -2,21 +2,13 @@
 // returns the max in the array
 function max(array) {
     
-    let a = array.length
-    let b = 0;
+    let maxValue = array[0];
     
-    for ( let i = 0 ; i < a; i++)
-    {
-        console.log(array[i])
-        if (array[i] > b)
-        {
-            b = array[i];
+    for (let i=1; i < array.length; i++) {
+        if (array[i] > maxValue) {
+            maxValue = array[i];
         }
     }
 
-
-    return b;
-    
-    
-   
+    return maxValue;
 }
