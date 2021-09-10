@@ -4,20 +4,35 @@ function min(array) {
     console.log("stub for min");
 
     //Variable...
-    let x = 0;
+    let minValue = 0;
 
     //Pull min number from array...
-
+    if(array[0])
+    {
+        minValue=array[0];
+    }
     for(i=0; i<array.length-1;i++)
     {
-        if(i==0){
-            x=array[i];
-        }
-        else{
-            if(array[i]<x){
-                x=array[i];
-            }
+        if(array[i]<minValue)
+        {
+            minValue=array[i];
         }
     }
-    return x;
+    return minValue;
+    /*
+    Example with 1 less loop.
+
+    if(array[0])
+    {
+        minValue=array[0];
+    }
+    for(i=1; i<array.length-1;i++)
+    {
+        if(array[i]<minValue)
+        {
+            minValue=array[i];
+        }
+    }
+    return minValue;
+    */
 }
